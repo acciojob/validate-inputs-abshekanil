@@ -7,6 +7,17 @@
 </head>
 
 <body>
+	<label>Name:</label><br>
+	<input type="text" required pattern="[A-Za-z]{3,}"><br>
+
+	<label>Email:</label><br>
+	<input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+
+	<label>Phone:</label><br>
+	<input type="number" required pattern="[0-9]{10}"><br>
+
+	<br><button>Submit</button>
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
